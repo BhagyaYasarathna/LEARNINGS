@@ -1,0 +1,40 @@
+/* Typography is the way that text is arranged and presented */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    /* color: purple; */
+
+    font-family: sans-serif;
+    /* font-family: serif; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* In the form <label> element inherits the properties of <body> element. But <input> and <button> elements do not inherit the properties of its parent element <body> */
+input, button {
+    font: inherit;
+}
+
+p {
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    text-align: justify;
+    text-indent: 5em;
+
+    line-height: 1.5;
+    /* letter-spacing: 0.25em; */
+    /* word-spacing: 2em; */
+
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+}

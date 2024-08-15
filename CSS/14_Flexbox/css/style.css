@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    gap: 1rem;
+
+    /* set the positions of each items horizontally */
+    justify-content: center;
+
+    /* set the position of each items vertically */
+    align-items: center;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+
+    /* set the position of all flex items vertically as a whole */
+    align-content: center;
+}
+
+.box {
+    /* min-width: 100px; */
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    /* changing the position of numbers */
+    /* below three lines can be used to center any element on the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 1;
+    flex-basis: 100px; */
+
+    /* flex-grow flex-shrink flex-basis */
+    flex: 1 1 250px;
+}
+
+.box:nth-child(2) {
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    flex: 2 2 250px;
+
+    /* send to the end */
+    order: 2;
+
+    /* send to the beginning */
+    /* order: -1; */
+}
