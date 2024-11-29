@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Friend friend1 = new Friend("Bhagya");
+		Friend friend2 = new Friend("Hasini");
+		Friend friend3 = new Friend("Dulmi");
+		
+		System.out.println(Friend.numberOfFriends);
+		System.out.println(friend1.numberOfFriends);
+		
+		Friend.displayFrineds();
+
+	}
+
+}

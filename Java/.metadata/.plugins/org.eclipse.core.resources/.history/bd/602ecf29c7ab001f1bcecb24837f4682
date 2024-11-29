@@ -1,0 +1,19 @@
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// JFrame  = a GUI window to add components to 
+		
+		JFrame frame = new JFrame(); //creates a frame
+		frame.setTitle("JFrame title goes here"); //sets title of frame
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+//		frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); 
+//		frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		frame.setSize(420, 420); //sets the x-dimension, and y-dimension
+		frame.setVisible(true); //make frame visible
+
+	}
+
+}

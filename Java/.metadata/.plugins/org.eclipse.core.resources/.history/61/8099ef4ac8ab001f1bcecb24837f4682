@@ -1,0 +1,24 @@
+import java.awt.Color;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame{
+	
+	MyFrame(){
+		this.setTitle("Jthis title goes here"); //sets title of this
+		this.setDefaultCloseOperation(Jthis.EXIT_ON_CLOSE); //exit out of application
+//		this.setDefaultCloseOperation(Jthis.DO_NOTHING_ON_CLOSE); 
+//		this.setDefaultCloseOperation(Jthis.HIDE_ON_CLOSE);
+		this.setResizable(false); //prevent this from being resized
+		this.setSize(420, 420); //sets the x-dimension, and y-dimension
+		this.setVisible(true); //make this visible
+		
+		ImageIcon image = new ImageIcon("logo.png"); //create an ImageIcon
+		this.setIconImage(image.getImage()); //change icon of this
+		
+		this.getContentPane().setBackground(new Color(180,0,25)); //change color of background
+//		this.getContentPane().setBackground(Color.green); 
+	}
+
+}
